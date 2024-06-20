@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from routes.liblouis import router as LIBLOUIS_ROUTES
 
 app = FastAPI()
 

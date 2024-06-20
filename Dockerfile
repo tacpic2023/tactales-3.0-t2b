@@ -14,8 +14,6 @@ RUN apt-get update && apt-get install -y \
     make \
     pkg-config \
     texinfo \
-    libgl1-mesa-glx \
-    libglib2.0-0 \
     python3-louis \
     liblouis-dev \
     liblouis20 \
